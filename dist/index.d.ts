@@ -1,7 +1,8 @@
 export declare enum FileImportStatus {
-    Error = 0,
-    Completed = 1,
-    Sending = 2
+    Error = 1,
+    Completed = 2,
+    NotCompleted = 3,
+    Sending = 1
 }
 export declare enum FileType {
     Teleopti = 1
