@@ -6,7 +6,7 @@ var FileImportStatus;
     FileImportStatus[FileImportStatus["Error"] = 1] = "Error";
     FileImportStatus[FileImportStatus["Completed"] = 2] = "Completed";
     FileImportStatus[FileImportStatus["NotCompleted"] = 3] = "NotCompleted";
-    FileImportStatus[FileImportStatus["Sending"] = 1] = "Sending";
+    FileImportStatus[FileImportStatus["Sending"] = 4] = "Sending";
 })(FileImportStatus = exports.FileImportStatus || (exports.FileImportStatus = {}));
 var FileType;
 (function (FileType) {
