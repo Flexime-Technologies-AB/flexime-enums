@@ -28,3 +28,23 @@ export declare enum CalendarItemType {
     AbsencePeriod = "AbsencePeriod",
     AbsenceDay = "AbsenceDay"
 }
+export declare enum FileImportCellError {
+    IpPersonDoesNotExist = 1,
+    IpArticleDoesNotExist = 2,
+    IpOrderDoesNotExist = 3,
+    IpAbsenceCodeDoesNotExist = 4,
+    IncorrectCellType = 5,
+    MissingArticleMapping = 6,
+    MissingPersonMapping = 7,
+    MissingOrderMapping = 8,
+    MissingAbsenceCodeMapping = 9,
+    MissingDateFrom = 10,
+    MissingDateTo = 11,
+    FailedToCreateIpWorkday = 12,
+    FailedToCreateIpAbsence = 13,
+    WorkdayWithErrorSameDay = 14,
+    FailedToCreateIpAbsencePeriod = 15,
+    MissingIpObjectId = 16,
+    FailedToAddIpArticles = 17,
+    FailedToAttestIpWorkday = 18
+}
