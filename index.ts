@@ -46,6 +46,6 @@ export enum FileImportCellError {
   FailedToCreateIpAbsencePeriod = 15,
   MissingIpObjectId = 16,
   FailedToAddIpArticles = 17,
-  FailedToAttestIpWorkday = 18
+  FailedToAttestIpWorkday = 18,
+  MissingIpValidationData = 19
 }
-

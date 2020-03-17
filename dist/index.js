@@ -51,4 +51,5 @@ var FileImportCellError;
     FileImportCellError[FileImportCellError["MissingIpObjectId"] = 16] = "MissingIpObjectId";
     FileImportCellError[FileImportCellError["FailedToAddIpArticles"] = 17] = "FailedToAddIpArticles";
     FileImportCellError[FileImportCellError["FailedToAttestIpWorkday"] = 18] = "FailedToAttestIpWorkday";
+    FileImportCellError[FileImportCellError["MissingIpValidationData"] = 19] = "MissingIpValidationData";
 })(FileImportCellError = exports.FileImportCellError || (exports.FileImportCellError = {}));
