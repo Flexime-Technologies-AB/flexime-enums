@@ -47,5 +47,6 @@ export declare enum FileImportCellError {
     MissingIpObjectId = 16,
     FailedToAddIpArticles = 17,
     FailedToAttestIpWorkday = 18,
-    MissingIpValidationData = 19
+    MissingIpValidationData = 19,
+    CalendarItemCollision = 20
 }
