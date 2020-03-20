@@ -23,6 +23,7 @@ var FileImportCellStatus;
     FileImportCellStatus[FileImportCellStatus["Sending"] = 2] = "Sending";
     FileImportCellStatus[FileImportCellStatus["Sent"] = 3] = "Sent";
     FileImportCellStatus[FileImportCellStatus["Ready"] = 4] = "Ready";
+    FileImportCellStatus[FileImportCellStatus["Ignore"] = 5] = "Ignore";
 })(FileImportCellStatus = exports.FileImportCellStatus || (exports.FileImportCellStatus = {}));
 var CalendarItemType;
 (function (CalendarItemType) {

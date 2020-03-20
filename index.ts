@@ -20,7 +20,8 @@ export enum FileImportCellStatus {
   Error = 1,
   Sending = 2,
   Sent = 3,
-  Ready = 4
+  Ready = 4,
+  Ignore = 5
 }
 export enum CalendarItemType {
   Workday = "Workday",
