@@ -2,7 +2,9 @@ export enum FileImportStatus {
   Error = 1,
   Completed = 2,
   NotCompleted = 3,
-  Sending = 4
+  Sending = 4,
+  Processing = 5,
+  FailedProcessing = 6
 }
 export enum FileType {
   Teleopti = 1
