@@ -7,7 +7,8 @@ export declare enum FileImportStatus {
     FailedProcessing = 6
 }
 export declare enum FileType {
-    Teleopti = 1
+    Teleopti = 1,
+    Fieldglass = 2
 }
 export interface FileImportSetting {
     type: string;

@@ -4,10 +4,11 @@ export enum FileImportStatus {
   NotCompleted = 3,
   Sending = 4,
   Processing = 5,
-  FailedProcessing = 6
+  FailedProcessing = 6,
 }
 export enum FileType {
-  Teleopti = 1
+  Teleopti = 1,
+  Fieldglass = 2,
 }
 export interface FileImportSetting {
   type: string;
@@ -16,20 +17,20 @@ export interface FileImportSetting {
 }
 export enum FileImportCellType {
   Workday = 1,
-  Absence = 2
+  Absence = 2,
 }
 export enum FileImportCellStatus {
   Error = 1,
   Sending = 2,
   Sent = 3,
   Ready = 4,
-  Ignore = 5
+  Ignore = 5,
 }
 export enum CalendarItemType {
   Workday = "Workday",
   CreditedWorkday = "CreditedWorkday",
   AbsencePeriod = "AbsencePeriod",
-  AbsenceDay = "AbsenceDay"
+  AbsenceDay = "AbsenceDay",
 }
 export enum FileImportCellError {
   IpPersonDoesNotExist = 1,
@@ -51,5 +52,5 @@ export enum FileImportCellError {
   FailedToAddIpArticles = 17,
   FailedToAttestIpWorkday = 18,
   MissingIpValidationData = 19,
-  CalendarItemCollision = 20
+  CalendarItemCollision = 20,
 }

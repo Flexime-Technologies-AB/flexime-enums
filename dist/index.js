@@ -13,6 +13,7 @@ var FileImportStatus;
 var FileType;
 (function (FileType) {
     FileType[FileType["Teleopti"] = 1] = "Teleopti";
+    FileType[FileType["Fieldglass"] = 2] = "Fieldglass";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {
