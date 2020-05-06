@@ -60,9 +60,10 @@ var FileImportCellError;
 })(FileImportCellError = exports.FileImportCellError || (exports.FileImportCellError = {}));
 var TimestampDirection;
 (function (TimestampDirection) {
-    TimestampDirection[TimestampDirection["UNKNOWN"] = -1] = "UNKNOWN";
-    TimestampDirection[TimestampDirection["IN"] = 0] = "IN";
-    TimestampDirection[TimestampDirection["OUT"] = 1] = "OUT";
-    TimestampDirection[TimestampDirection["BREAK_START"] = 2] = "BREAK_START";
-    TimestampDirection[TimestampDirection["BREAK_END"] = 3] = "BREAK_END";
+    TimestampDirection[TimestampDirection["Unknown"] = -1] = "Unknown";
+    TimestampDirection[TimestampDirection["In"] = 0] = "In";
+    TimestampDirection[TimestampDirection["Out"] = 1] = "Out";
+    TimestampDirection[TimestampDirection["BreakStart"] = 2] = "BreakStart";
+    TimestampDirection[TimestampDirection["BreakEnd"] = 3] = "BreakEnd";
+    TimestampDirection[TimestampDirection["OutAbsence"] = 4] = "OutAbsence";
 })(TimestampDirection = exports.TimestampDirection || (exports.TimestampDirection = {}));

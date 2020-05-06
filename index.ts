@@ -55,9 +55,10 @@ export enum FileImportCellError {
   CalendarItemCollision = 20,
 }
 export enum TimestampDirection {
-  UNKNOWN = -1,
-  IN = 0,
-  OUT = 1,
-  BREAK_START = 2,
-  BREAK_END = 3,
+  Unknown = -1,
+  In = 0,
+  Out = 1,
+  BreakStart = 2,
+  BreakEnd = 3,
+  OutAbsence = 4,
 }
