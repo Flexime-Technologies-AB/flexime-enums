@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
+exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
 var FileImportStatus;
 (function (FileImportStatus) {
     FileImportStatus[FileImportStatus["Error"] = 1] = "Error";
@@ -58,3 +58,11 @@ var FileImportCellError;
     FileImportCellError[FileImportCellError["MissingIpValidationData"] = 19] = "MissingIpValidationData";
     FileImportCellError[FileImportCellError["CalendarItemCollision"] = 20] = "CalendarItemCollision";
 })(FileImportCellError = exports.FileImportCellError || (exports.FileImportCellError = {}));
+var TimestampDirection;
+(function (TimestampDirection) {
+    TimestampDirection[TimestampDirection["UNKNOWN"] = -1] = "UNKNOWN";
+    TimestampDirection[TimestampDirection["IN"] = 0] = "IN";
+    TimestampDirection[TimestampDirection["OUT"] = 1] = "OUT";
+    TimestampDirection[TimestampDirection["BREAK_START"] = 2] = "BREAK_START";
+    TimestampDirection[TimestampDirection["BREAK_END"] = 3] = "BREAK_END";
+})(TimestampDirection = exports.TimestampDirection || (exports.TimestampDirection = {}));
