@@ -54,3 +54,10 @@ export enum FileImportCellError {
   MissingIpValidationData = 19,
   CalendarItemCollision = 20,
 }
+export enum TimestampDirection {
+  UNKNOWN = -1,
+  IN = 0,
+  OUT = 1,
+  BREAK_START = 2,
+  BREAK_END = 3,
+}
