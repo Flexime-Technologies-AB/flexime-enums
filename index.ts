@@ -9,6 +9,8 @@ export enum FileImportStatus {
 export enum FileType {
   Teleopti = 1,
   Fieldglass = 2,
+  Recruitive = 3,
+  Tidomat = 4,
 }
 export interface FileImportSetting {
   type: string;
