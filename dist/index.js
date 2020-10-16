@@ -16,6 +16,7 @@ var FileType;
     FileType[FileType["Fieldglass"] = 2] = "Fieldglass";
     FileType[FileType["Recruitive"] = 3] = "Recruitive";
     FileType[FileType["Tidomat"] = 4] = "Tidomat";
+    FileType[FileType["Schedule"] = 5] = "Schedule";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {

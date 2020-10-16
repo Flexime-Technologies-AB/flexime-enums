@@ -11,6 +11,7 @@ export enum FileType {
   Fieldglass = 2,
   Recruitive = 3,
   Tidomat = 4,
+  Schedule = 5,
 }
 export interface FileImportSetting {
   type: string;
