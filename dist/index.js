@@ -17,6 +17,7 @@ var FileType;
     FileType[FileType["Recruitive"] = 3] = "Recruitive";
     FileType[FileType["Tidomat"] = 4] = "Tidomat";
     FileType[FileType["Schedule"] = 5] = "Schedule";
+    FileType[FileType["FlexHRM"] = 6] = "FlexHRM";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {

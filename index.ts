@@ -12,6 +12,7 @@ export enum FileType {
   Recruitive = 3,
   Tidomat = 4,
   Schedule = 5,
+  FlexHRM = 6,
 }
 export interface FileImportSetting {
   type: string;
