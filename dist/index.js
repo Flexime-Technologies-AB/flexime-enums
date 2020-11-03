@@ -18,6 +18,7 @@ var FileType;
     FileType[FileType["Tidomat"] = 4] = "Tidomat";
     FileType[FileType["Schedule"] = 5] = "Schedule";
     FileType[FileType["FlexHRM"] = 6] = "FlexHRM";
+    FileType[FileType["Quinyx"] = 7] = "Quinyx";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {
