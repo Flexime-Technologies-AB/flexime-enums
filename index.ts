@@ -14,6 +14,7 @@ export enum FileType {
   Schedule = 5,
   FlexHRM = 6,
   Quinyx = 7,
+  Test2 = 8,
 }
 export interface FileImportSetting {
   type: string;

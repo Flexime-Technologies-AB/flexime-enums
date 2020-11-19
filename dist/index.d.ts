@@ -13,7 +13,8 @@ export declare enum FileType {
     Tidomat = 4,
     Schedule = 5,
     FlexHRM = 6,
-    Quinyx = 7
+    Quinyx = 7,
+    Test2 = 8
 }
 export interface FileImportSetting {
     type: string;
