@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
+exports.NotificationType = exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
 var FileImportStatus;
 (function (FileImportStatus) {
     FileImportStatus[FileImportStatus["Error"] = 1] = "Error";
@@ -74,3 +74,13 @@ var TimestampDirection;
     TimestampDirection[TimestampDirection["BreakEnd"] = 3] = "BreakEnd";
     TimestampDirection[TimestampDirection["OutAbsence"] = 4] = "OutAbsence";
 })(TimestampDirection = exports.TimestampDirection || (exports.TimestampDirection = {}));
+var NotificationType;
+(function (NotificationType) {
+    NotificationType[NotificationType["NOTIFICATION_NETWORK_ERROR"] = 0] = "NOTIFICATION_NETWORK_ERROR";
+    NotificationType[NotificationType["NOTIFICATION_WORKDAY_NOT_FOUND"] = 1] = "NOTIFICATION_WORKDAY_NOT_FOUND";
+    NotificationType[NotificationType["NOTIFICATION_UNKNOWN_ERROR"] = 2] = "NOTIFICATION_UNKNOWN_ERROR";
+    NotificationType[NotificationType["NOTIFICATION_RFID_NOT_FOUND"] = 3] = "NOTIFICATION_RFID_NOT_FOUND";
+    NotificationType[NotificationType["NOTIFICATION_INCORRECT_NR_OF_TIMESTAMPS"] = 4] = "NOTIFICATION_INCORRECT_NR_OF_TIMESTAMPS";
+    NotificationType[NotificationType["NOTIFICATION_INCORRECT_ABSENCE"] = 5] = "NOTIFICATION_INCORRECT_ABSENCE";
+    NotificationType[NotificationType["NOTIFICATION_WORKDAY_ALREADY_ATTESTED"] = 6] = "NOTIFICATION_WORKDAY_ALREADY_ATTESTED";
+})(NotificationType = exports.NotificationType || (exports.NotificationType = {}));
