@@ -83,4 +83,6 @@ var NotificationType;
     NotificationType[NotificationType["NOTIFICATION_INCORRECT_NR_OF_TIMESTAMPS"] = 4] = "NOTIFICATION_INCORRECT_NR_OF_TIMESTAMPS";
     NotificationType[NotificationType["NOTIFICATION_INCORRECT_ABSENCE"] = 5] = "NOTIFICATION_INCORRECT_ABSENCE";
     NotificationType[NotificationType["NOTIFICATION_WORKDAY_ALREADY_ATTESTED"] = 6] = "NOTIFICATION_WORKDAY_ALREADY_ATTESTED";
+    NotificationType[NotificationType["NOTIFICATION_TERMINAL_MISSING_ORDER_OR_WORKPLACE"] = 7] = "NOTIFICATION_TERMINAL_MISSING_ORDER_OR_WORKPLACE";
+    NotificationType[NotificationType["NOTIFICATION_TERMINAL_MISSING_RULES"] = 8] = "NOTIFICATION_TERMINAL_MISSING_RULES";
 })(NotificationType = exports.NotificationType || (exports.NotificationType = {}));
