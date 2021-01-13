@@ -15,6 +15,7 @@ export enum FileType {
   FlexHRM = 6,
   Quinyx = 7,
   Test2 = 8,
+  Transcom = 9,
 }
 export interface FileImportSetting {
   type: string;
