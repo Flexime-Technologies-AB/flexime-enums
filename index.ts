@@ -16,6 +16,7 @@ export enum FileType {
   Quinyx = 7,
   Test2 = 8,
   Transcom = 9,
+  Agda = 10,
 }
 export interface FileImportSetting {
   type: string;

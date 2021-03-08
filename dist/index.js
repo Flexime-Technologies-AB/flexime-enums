@@ -21,6 +21,7 @@ var FileType;
     FileType[FileType["Quinyx"] = 7] = "Quinyx";
     FileType[FileType["Test2"] = 8] = "Test2";
     FileType[FileType["Transcom"] = 9] = "Transcom";
+    FileType[FileType["Agda"] = 10] = "Agda";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {
