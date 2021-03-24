@@ -22,6 +22,7 @@ var FileType;
     FileType[FileType["Test2"] = 8] = "Test2";
     FileType[FileType["Transcom"] = 9] = "Transcom";
     FileType[FileType["Agda"] = 10] = "Agda";
+    FileType[FileType["Article"] = 11] = "Article";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {
