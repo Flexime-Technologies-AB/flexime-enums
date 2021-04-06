@@ -83,7 +83,7 @@ export declare enum NotificationType {
     NOTIFICATION_TERMINAL_MISSING_ORDER_OR_WORKPLACE = 7,
     NOTIFICATION_TERMINAL_MISSING_RULES = 8
 }
-export declare enum BreakPositionBehaviour {
+export declare enum BreakStyle {
     BreakMinutes = 1,
     BreakPositions = 2
 }

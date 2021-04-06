@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BreakPositionBehaviour = exports.NotificationType = exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
+exports.BreakStyle = exports.NotificationType = exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
 var FileImportStatus;
 (function (FileImportStatus) {
     FileImportStatus[FileImportStatus["Error"] = 1] = "Error";
@@ -89,8 +89,8 @@ var NotificationType;
     NotificationType[NotificationType["NOTIFICATION_TERMINAL_MISSING_ORDER_OR_WORKPLACE"] = 7] = "NOTIFICATION_TERMINAL_MISSING_ORDER_OR_WORKPLACE";
     NotificationType[NotificationType["NOTIFICATION_TERMINAL_MISSING_RULES"] = 8] = "NOTIFICATION_TERMINAL_MISSING_RULES";
 })(NotificationType = exports.NotificationType || (exports.NotificationType = {}));
-var BreakPositionBehaviour;
-(function (BreakPositionBehaviour) {
-    BreakPositionBehaviour[BreakPositionBehaviour["BreakMinutes"] = 1] = "BreakMinutes";
-    BreakPositionBehaviour[BreakPositionBehaviour["BreakPositions"] = 2] = "BreakPositions";
-})(BreakPositionBehaviour = exports.BreakPositionBehaviour || (exports.BreakPositionBehaviour = {}));
+var BreakStyle;
+(function (BreakStyle) {
+    BreakStyle[BreakStyle["BreakMinutes"] = 1] = "BreakMinutes";
+    BreakStyle[BreakStyle["BreakPositions"] = 2] = "BreakPositions";
+})(BreakStyle = exports.BreakStyle || (exports.BreakStyle = {}));
