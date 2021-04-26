@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BreakStyle = exports.NotificationType = exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
+exports.AbsenceOutputType = exports.BreakStyle = exports.NotificationType = exports.TimestampDirection = exports.FileImportCellError = exports.CalendarItemType = exports.FileImportCellStatus = exports.FileImportCellType = exports.FileType = exports.FileImportStatus = void 0;
 var FileImportStatus;
 (function (FileImportStatus) {
     FileImportStatus[FileImportStatus["Error"] = 1] = "Error";
@@ -94,3 +94,8 @@ var BreakStyle;
     BreakStyle[BreakStyle["BreakMinutes"] = 1] = "BreakMinutes";
     BreakStyle[BreakStyle["BreakPositions"] = 2] = "BreakPositions";
 })(BreakStyle = exports.BreakStyle || (exports.BreakStyle = {}));
+var AbsenceOutputType;
+(function (AbsenceOutputType) {
+    AbsenceOutputType[AbsenceOutputType["BreakMinutes"] = 1] = "BreakMinutes";
+    AbsenceOutputType[AbsenceOutputType["SplitWorkday"] = 2] = "SplitWorkday";
+})(AbsenceOutputType = exports.AbsenceOutputType || (exports.AbsenceOutputType = {}));

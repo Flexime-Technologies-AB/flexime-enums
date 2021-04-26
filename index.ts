@@ -87,3 +87,7 @@ export enum BreakStyle {
   BreakMinutes = 1,
   BreakPositions = 2,
 }
+export enum AbsenceOutputType {
+  BreakMinutes = 1,
+  SplitWorkday = 2,
+}
