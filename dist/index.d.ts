@@ -19,8 +19,10 @@ export declare enum FileType {
     Agda = 10,
     Article = 11
 }
+export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal";
+export declare type FileImportSettingsTypes = GeneralSearchTypes | "boolean";
 export interface FileImportSetting {
-    type: string;
+    type: FileImportSettingsTypes;
     name: string;
     value: string;
 }
@@ -91,5 +93,3 @@ export declare enum AbsenceOutputType {
     BreakMinutes = 1,
     SplitWorkday = 2
 }
-export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal";
-export declare type FileImportSettingsTypes = GeneralSearchTypes | "boolean";
