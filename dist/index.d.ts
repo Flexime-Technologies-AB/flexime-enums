@@ -91,3 +91,5 @@ export declare enum AbsenceOutputType {
     BreakMinutes = 1,
     SplitWorkday = 2
 }
+export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal";
+export declare type FileImportSettingsTypes = GeneralSearchTypes | "boolean" | "string" | "number";
