@@ -97,8 +97,4 @@ export type GeneralSearchTypes =
   | "workplace"
   | "absenceCode"
   | "terminal";
-export type FileImportSettingsTypes =
-  | GeneralSearchTypes
-  | "boolean"
-  | "string"
-  | "number";
+export type FileImportSettingsTypes = GeneralSearchTypes | "boolean";
