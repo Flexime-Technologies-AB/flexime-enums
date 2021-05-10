@@ -24,7 +24,8 @@ export type GeneralSearchTypes =
   | "order"
   | "workplace"
   | "absenceCode"
-  | "terminal";
+  | "terminal"
+  | "organisation";
 export type FileImportSettingsTypes = GeneralSearchTypes | "boolean";
 export interface FileImportSetting {
   type: FileImportSettingsTypes;

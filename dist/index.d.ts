@@ -19,7 +19,7 @@ export declare enum FileType {
     Agda = 10,
     Article = 11
 }
-export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal";
+export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal" | "organisation";
 export declare type FileImportSettingsTypes = GeneralSearchTypes | "boolean";
 export interface FileImportSetting {
     type: FileImportSettingsTypes;
