@@ -67,6 +67,7 @@ var FileImportCellError;
     FileImportCellError[FileImportCellError["MissingIpValidationData"] = 19] = "MissingIpValidationData";
     FileImportCellError[FileImportCellError["CalendarItemCollision"] = 20] = "CalendarItemCollision";
     FileImportCellError[FileImportCellError["FailedUpdatingExistingIpObject"] = 21] = "FailedUpdatingExistingIpObject";
+    FileImportCellError[FileImportCellError["BreakOutsideWorkday"] = 22] = "BreakOutsideWorkday";
 })(FileImportCellError = exports.FileImportCellError || (exports.FileImportCellError = {}));
 var TimestampDirection;
 (function (TimestampDirection) {
