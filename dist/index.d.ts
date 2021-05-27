@@ -15,7 +15,7 @@ export declare enum FileType {
     FlexHRM = 6,
     Quinyx = 7,
     Test2 = 8,
-    Transcom = 9,
+    Looker = 9,
     Agda = 10,
     Article = 11
 }
