@@ -65,7 +65,8 @@ export declare enum FileImportCellError {
     MissingIpValidationData = 19,
     CalendarItemCollision = 20,
     FailedUpdatingExistingIpObject = 21,
-    BreakOutsideWorkday = 22
+    BreakOutsideWorkday = 22,
+    UnsafeCell = 23
 }
 export declare enum TimestampDirection {
     Unknown = -1,

@@ -68,6 +68,7 @@ var FileImportCellError;
     FileImportCellError[FileImportCellError["CalendarItemCollision"] = 20] = "CalendarItemCollision";
     FileImportCellError[FileImportCellError["FailedUpdatingExistingIpObject"] = 21] = "FailedUpdatingExistingIpObject";
     FileImportCellError[FileImportCellError["BreakOutsideWorkday"] = 22] = "BreakOutsideWorkday";
+    FileImportCellError[FileImportCellError["UnsafeCell"] = 23] = "UnsafeCell";
 })(FileImportCellError = exports.FileImportCellError || (exports.FileImportCellError = {}));
 var TimestampDirection;
 (function (TimestampDirection) {
