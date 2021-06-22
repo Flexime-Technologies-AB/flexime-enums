@@ -17,7 +17,8 @@ export declare enum FileType {
     Test2 = 8,
     Looker = 9,
     Agda = 10,
-    Article = 11
+    Article = 11,
+    LookerArticles = 12
 }
 export declare type GeneralSearchTypes = "person" | "order" | "workplace" | "absenceCode" | "terminal" | "organisation";
 export declare type FileImportSettingsTypes = GeneralSearchTypes | "boolean";

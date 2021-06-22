@@ -23,6 +23,7 @@ var FileType;
     FileType[FileType["Looker"] = 9] = "Looker";
     FileType[FileType["Agda"] = 10] = "Agda";
     FileType[FileType["Article"] = 11] = "Article";
+    FileType[FileType["LookerArticles"] = 12] = "LookerArticles";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var FileImportCellType;
 (function (FileImportCellType) {

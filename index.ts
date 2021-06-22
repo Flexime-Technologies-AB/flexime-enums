@@ -18,6 +18,7 @@ export enum FileType {
   Looker = 9,
   Agda = 10,
   Article = 11,
+  LookerArticles = 12,
 }
 export type GeneralSearchTypes =
   | "person"
